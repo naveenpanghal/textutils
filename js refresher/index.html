@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <title>basic js for react app</title>
+    <script>
+      let a = 34;
+      // let b = 'string';
+      console.log(a);
+
+      function hello() {
+        console.log("hello harry");
+      }
+
+      // key value pair and function in objects
+      let obja = {
+        r: 34,
+        b: 45,
+        func: function objfun(number) {
+          console.log("this number is " + number);
+        },
+      };
+
+      document.addEventListener("click", function click() {
+        console.log("clicked console");
+        //alert("clicked alert");
+      });
+      /* echo true or false */
+      // let conf = confirm("are u sure?");
+      // console.log(conf);
+
+      console.log(this);
+
+      let arr = [34, 23, 35];
+      function myfunc(number) {
+        console.log("this number is " + this);
+      }
+      myfunc();
+
+      /* call back function */
+
+      setTimeout(() => {
+        console.log("after 3 mili sec");
+      }, 3000);
+
+      console.log("m nuche wali script hoon");
+    </script>
+  </head>
+  <body>
+    I am learning js
+  </body>
+</html>
